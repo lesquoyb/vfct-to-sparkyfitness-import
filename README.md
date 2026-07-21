@@ -34,9 +34,23 @@ Some pages in the source PDF have a shifted layout where the page's `STT`/food-c
 
 ### 1. Install dependencies
 
+**Create a virtual environment**
 ```bash
-python -m venv venv
+python3 -m venv venv
+```
+
+**Activate it**
+in unix systems:
+```
 source venv/bin/activate
+```
+on windows:
+```
+.\venv\bin\activate
+```
+
+**Install the requirements**
+```
 pip install -r requirements.txt
 ```
 
